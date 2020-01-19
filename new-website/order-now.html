@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Penny Juice - Order Now!</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/order-now.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img class="navbar-logo" src="https://cdn.websites.hibu.com/767557674d6e4362acfa088c81c84a89/dms3rep/multi/mobile/pennyjuice-logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-target">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-target">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="btn btn-secondary ml-2" href="order-now.html">Order Now</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="text-center m-auto" style="width: 35%; padding: 100px 0;">
+      <h1>Get my Juice!</h1>
+      <p>
+        Please fill out the form below so that we may be able to ship you your products!
+      </p>
+      <!-- <br> -->
+      <small>All fields are required.</small>
+      <form action="index.html" class="mt-2">
+        <input class="form-input" type="text" placeholder="Name" required>
+        <input class="form-input" type="email" placeholder="Email" required>
+        <input class="form-input" type="text" placeholder="Center Name" required>
+        <input class="form-input" type="text" placeholder="Address" required>
+        <div class="text-center">
+          <input class="primary-cta-button" type="submit" value="Place my Order!">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

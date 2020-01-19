@@ -1,0 +1,132 @@
+/* HEADER STYLES */
+.header {
+  background-image: linear-gradient(to right bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../img/kids.png");
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.main-logo {
+  width: 400px;
+  background-color: rgba(255,255,255,.8);
+  padding: 20px;
+  border-radius: 4px;
+}
+
+
+/* ABOUT STYLES */
+.about {
+  background-color: #eee;
+  color: #555;
+}
+
+.about-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: 350px;
+  grid-gap: 50px;
+  margin-top: 50px;
+}
+
+.about-card {
+  position: relative;
+  text-align: center;
+}
+
+.about-card-icon {
+  width: 50px;
+}
+
+.about-card-items {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.about-card-item {
+  margin-bottom: 5px;
+}
+
+.about-card-cta {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+/* CTA BANNER STYLES */
+.cta-banner {
+  background-color: var(--color-primary-light);
+}
+
+
+/* FOOTER STYLES */
+.footer {
+  background-color: #333;
+  color: #eee;
+}
+
+.policy-line {
+  color: #eee;
+}
+
+.policy-line a {
+  color: #eee;
+  padding: 0 5px;
+}
+
+.policy-line a:hover {
+  color: #eee;
+}
+
+.footer-logo {
+  height: 60px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 50px;
+}
+
+.footer-grid-column {
+  text-align: center;
+}
+
+.footer-grid-column-title {
+  margin-bottom: 30px;
+}
+
+.contact-container {
+  width: 60%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-gap: 30px;
+  margin-bottom: 10px;
+}
+
+.contact-icon {
+  width: 100%;
+}
+
+.contact-info {
+  display: flex;
+  align-self: center;
+}
+
+.social-media-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  grid-gap: 15px;
+  justify-content: center;
+}
+
+.social-media-icon {
+  width: 100%;
+  transition: all .2s;
+}
+
+.social-media-icon:hover {
+  transform: scale(1.15);
+}
